@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.nav{
+  
+  margin-top: 0%;
+  padding-left: 36%;
+  padding-right:0%;
+  overflow: hidden;
+  font-size: 18px;
+  background-color: white;
+ 
+  
+}
+.logo{
+ margin-left:40%;
+}
+
+
+
+.nav a {
+  display: inline-block;
+  color: gray;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+  
+}
+
+.nav a:hover {
+  color:#45454d;
+}
+.about{
+  display:inline-block;
+}
+.im{
+  
+  margin-top:100px;
+  padding-left:0px;
+  border-radius:50%;
+  margin-left:200px;
+  height:160px;
+  width:160px;
+}
+
+.q{
+ 
+  display:flex;
+}
+.d{
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size:16px;
+
+font-family:'Zapf-Chancery', cursive;
+  color:gray;
+  }
+
+
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 0px;
+  height:0px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px, 2px;
+  border-radius:50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+   opacity:0.8;
+}
+
+.fa-twitter {
+  background: black;
+  opacity:0.8;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: black;
+   opacity:0.8;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: black;
+  color: white;
+   opacity:0.8;
+}
+.footer{
+  margin-left:150px;
+  margin-top:50px;
+}
+.zx{
+  text-align:right;
+  font-size:16px;
+
+font-family:'Zapf-Chancery', cursive;
+  color:gray;
+  padding-right:200px;
+  
+}
+.qq{
+  display:flex;
+  list-style:none;
+}
+#iconbar{
+    
+      top: 35%;
+      right: 3%;
+      position: absolute;
+      opacity: 1;
+      visibility:hidden;
+      width:80%;
+      color:gray;
+      opacity:1.5;
+      
+      }   
+ #iconbar:hover {
+       color: red;
+   } 
+@media screen and (max-width: 700px){
+  .q{
+    flex-direction:column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 700px){
+    .nav ul{
+        opacity: 0;
+        visibility: hidden;
+    }
+   #iconbar{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+}
+
+</style>
+</head>
+<body>
+<div class="logo">
+<img src="https://www.freelogodesign.org/file/app/client/thumb/4ad4abb5-c7df-4572-95e0-f22aca7fcbb5_200x200.png?1570405755745"></img>
+</div>
+<div class="nav">
+  <ul class="qq">
+  <li><a href="index.html">About</a></li>
+  <li><a href="education.html">Education</a></li>
+  <li><a href="skills.html">Skills</a></li>
+  <li><a href="contact.html">Contact</a></li>
+ 
+</ul>
+
+</div>
+ <a href="#" id="iconbar" onclick="responsive_menu()" ><i class="fa fa-bars "></i></a>
+
+  <div class="q">
+    <div >
+    <img src="21.jpg" alt="image" class="im"></img>
+    </div>
+  <div class="d">
+    <p>
+      Hi, I'm Rankeshwar Kumar<br><br>
+      B.Tech, Final Year in Computer Science and Engineering<br>
+      Rajkiya Engineering College Sonbhadra, Uttar Pradesh<br><br>
+      Quick Learner, Hard Working, Systematic and Planned Worker<br><br>
+      Goal is to be associated with a company where I can utilize my skills
+      and gain further experience <br>while enhancing the company's
+      productivity and reputation.
+     </p>  
+  </div>
+  
+  </div>
+
+<footer class="footer">
+<a href="https://www.facebook.com/profile.php?id=100009808535265&ref=bookmarks" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+
+<a href="https://www.linkedin.com/in/rankeshwar-kumar-624aa7141/" class="fa fa-linkedin"></a>
+
+<a href="instagram.com/rankeshk/" class="fa fa-instagram"></a>
+<p class="zx">rankesh@2019</p>
+     </footer> 
+
+</body>
+</html>
